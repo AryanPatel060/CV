@@ -1,0 +1,523 @@
+INFO - 2023-03-22 07:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 07:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 07:36:53 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Catagory.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-22 07:41:51 --> syntax error, unexpected variable "$cat"
+in APPPATH\Controllers\Catagory.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:48:39 --> syntax error, unexpected variable "$type", expecting "function" or "const"
+in APPPATH\Controllers\Catagory.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:49:04 --> syntax error, unexpected variable "$type"
+in APPPATH\Controllers\Catagory.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:49:38 --> syntax error, unexpected token "("
+in APPPATH\Controllers\Catagory.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:49:49 --> syntax error, unexpected token "("
+in APPPATH\Controllers\Catagory.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:50:08 --> syntax error, unexpected variable "$filed", expecting "function" or "const"
+in APPPATH\Controllers\Catagory.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:50:36 --> syntax error, unexpected variable "$filed"
+in APPPATH\Controllers\Catagory.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:53:15 --> syntax error, unexpected variable "$filed"
+in APPPATH\Controllers\Catagory.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:53:31 --> syntax error, unexpected variable "$field"
+in APPPATH\Controllers\Catagory.php on line 12.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:53:42 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Catagory.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-22 07:54:22 --> Class "App\Controller\BaseController" not found
+in APPPATH\Controllers\Catagory.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:55:10 --> Class "App\Controller\BaseController" not found
+in APPPATH\Controllers\Catagory.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('catagory')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('catagory')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('catagory')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 07:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:01:03 --> Undefined variable $userModel
+in APPPATH\Controllers\Catagory.php on line 11.
+ 1 APPPATH\Controllers\Catagory.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'APPPATH\\Controllers\\Catagory.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:01:20 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\wamp64\www\cv\app\Controllers\Catagory.php on line 12
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Catagory.php(12): CodeIgniter\HTTP\RedirectResponse->to('home', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:01:39 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\home.php on line 3.
+ 1 APPPATH\Views\home.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\home.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Catagory.php(12): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:21:15 --> Cannot access offset of type string on string
+in APPPATH\Views\home.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Catagory.php(12): view('home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:24:32 --> Undefined array key "username"
+in APPPATH\Views\home.php on line 13.
+ 1 APPPATH\Views\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\home.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Catagory.php(13): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:25:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Catagory.php(13): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 08:29:24 --> Undefined variable $record
+in APPPATH\Controllers\Catagory.php on line 13.
+ 1 APPPATH\Controllers\Catagory.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'APPPATH\\Controllers\\Catagory.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catagory->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catagory))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 08:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 08:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 10:46:29 --> syntax error, unexpected token ","
+in APPPATH\Views\home.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 10:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 10:47:15 --> syntax error, unexpected identifier "form_hidden"
+in APPPATH\Views\home.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 10:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 10:52:50 --> syntax error, unexpected token ","
+in APPPATH\Views\home.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 10:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 10:53:19 --> syntax error, unexpected identifier "form_hidden"
+in APPPATH\Views\home.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 10:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 10:58:51 --> syntax error, unexpected identifier "form_hidden"
+in APPPATH\Views\home.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 10:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 10:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 11:04:38 --> Too few arguments to function app\Models\JoinModel::achivmentbyid(), 0 passed in C:\wamp64\www\cv\app\Controllers\Achivmentview.php on line 14 and exactly 1 expected
+in APPPATH\Models\JoinModel.php on line 21.
+ 1 APPPATH\Controllers\Achivmentview.php(14): app\Models\JoinModel->achivmentbyid()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:05:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:05:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment.id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:09:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:09:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:09:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:09:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:11:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:11:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:12:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:12:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\'')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:12:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\'')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:13:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']':' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']':' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\':')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:14:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:14:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 11:17:35 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Achivmentview.php on line 16.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('achivmentview')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('achivmentview')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('achivmentview')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-22 11:17:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1 in C:\wamp64\www\cv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\cv\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from u...', 0)
+#1 C:\wamp64\www\cv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\wamp64\www\cv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\wamp64\www\cv\app\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\wamp64\www\cv\app\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment['ach...')
+#5 C:\wamp64\www\cv\system\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+#6 C:\wamp64\www\cv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+#7 C:\wamp64\www\cv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 11:17:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'achivment.id']'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JoinModel.php(23): CodeIgniter\Database\BaseConnection->query('select * from users join achivment on users.id=achivment.user_id where achivment_id=\'$achivment[\'achivment.id\']\';')
+ 2 APPPATH\Controllers\Achivmentview.php(15): app\Models\JoinModel->achivmentbyid('$achivment[\'achivment.id\']')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 11:23:24 --> Invalid file: "achivmentview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('achivmentview.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('achivmentview', [], true)
+ 3 APPPATH\Controllers\Achivmentview.php(17): view('achivmentview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-22 11:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 11:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

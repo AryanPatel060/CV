@@ -1,0 +1,741 @@
+INFO - 2023-03-25 04:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:05:52 --> Undefined variable $userModel
+in APPPATH\Controllers\Unknownprofile.php on line 21.
+ 1 APPPATH\Controllers\Unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'APPPATH\\Controllers\\Unknownprofile.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:06:37 --> Undefined variable $userModel
+in APPPATH\Controllers\Unknownprofile.php on line 21.
+ 1 APPPATH\Controllers\Unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'APPPATH\\Controllers\\Unknownprofile.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:06:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\unknownprofile.php on line 34.
+ 1 APPPATH\Views\unknownprofile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\unknownprofile.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(23): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:08:07 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\unknownprofile.php on line 34.
+ 1 APPPATH\Views\unknownprofile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\unknownprofile.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(23): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:11:54 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:14:50 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:15:12 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:15:34 --> Attempt to read property "username" on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 APPPATH\Views\unknownprofile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on string', 'APPPATH\\Views\\unknownprofile.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:16:22 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:20:11 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:20:24 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:21:13 --> syntax error, unexpected token ";"
+in APPPATH\Views\unknownprofile.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:21:28 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 04:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:24:53 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 04:25:13 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:37:51 --> Cannot use object of type stdClass as array
+in APPPATH\Views\unknownprofile.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:39:32 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\unknownprofile.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:40:08 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(21): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:46:25 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:47:34 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:49:16 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 4 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:50:54 --> Attempt to read property "username" on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 APPPATH\Views\unknownprofile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on string', 'APPPATH\\Views\\unknownprofile.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:51:44 --> syntax error, unexpected token "echo"
+in APPPATH\Views\unknownprofile.php on line 36.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:51:57 --> Attempt to read property "username" on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 APPPATH\Views\unknownprofile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on string', 'APPPATH\\Views\\unknownprofile.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:53:45 --> Attempt to read property "username" on string
+in APPPATH\Views\unknownprofile.php on line 35.
+ 1 APPPATH\Views\unknownprofile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on string', 'APPPATH\\Views\\unknownprofile.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 10:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:07:48 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\unknownprofile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:09:04 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\unknownprofile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:09:51 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\unknownprofile.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:11:58 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 4 APPPATH\Views\unknownprofile.php(54): view('unknownachivments')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 8 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:14:21 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 4 APPPATH\Views\unknownprofile.php(53): view('unknownachivments')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 8 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:15:00 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 4 APPPATH\Views\unknownprofile.php(53): view('unknownachivments')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 8 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:15:05 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 4 APPPATH\Views\unknownprofile.php(53): view('unknownachivments')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 8 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:16:32 --> Cannot access offset of type string on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 4 APPPATH\Views\unknownprofile.php(54): view('unknownachivments')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 8 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:17:38 --> Attempt to read property "aproovment" on string
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aproovment" on string', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Views\unknownprofile.php(54): view('unknownachivments')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 9 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:18:03 --> Undefined property: stdClass::$aproovment
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aproovment', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Views\unknownprofile.php(54): view('unknownachivments')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 9 APPPATH\Controllers\Unknownprofile.php(20): view('unknownprofile', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:22:11 --> Attempt to read property "username" on array
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:36:08 --> Attempt to read property "username" on array
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:37:46 --> Attempt to read property "aproovment" on array
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aproovment" on array', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownachivments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 11:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 11:38:21 --> Undefined array key "aproovment"
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aproovment"', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownachivments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:00:56 --> Undefined array key "aproovment"
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aproovment"', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownachivments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:00:59 --> Undefined array key "aproovment"
+in APPPATH\Views\unknownachivments.php on line 8.
+ 1 APPPATH\Views\unknownachivments.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aproovment"', 'APPPATH\\Views\\unknownachivments.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownachivments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownachivments', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownachivments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:03:26 --> Attempt to read property "username" on array
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:04:43 --> Attempt to read property "username" on array
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:05:02 --> Undefined array key "username"
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:05:30 --> Undefined variable $achivment
+in APPPATH\Views\unknownprofile.php on line 21.
+ 1 APPPATH\Views\unknownprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $achivment', 'APPPATH\\Views\\unknownprofile.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:05:52 --> Undefined variable $achivment
+in APPPATH\Views\unknownprofile.php on line 34.
+ 1 APPPATH\Views\unknownprofile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $achivment', 'APPPATH\\Views\\unknownprofile.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\unknownprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 5 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:07:10 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\unknownprofile.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('unknownprofile', [], true)
+ 3 APPPATH\Controllers\Unknownprofile.php(22): view('unknownprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unknownprofile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unknownprofile))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:26:38 --> Undefined variable $achivment
+in APPPATH\Views\achivmentview.php on line 12.
+ 1 APPPATH\Views\achivmentview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $achivment', 'APPPATH\\Views\\achivmentview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\achivmentview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('achivmentview', [], true)
+ 5 APPPATH\Controllers\Achivmentview.php(15): view('achivmentview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:30:20 --> Undefined variable $achivment
+in APPPATH\Views\achivmentview.php on line 19.
+ 1 APPPATH\Views\achivmentview.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $achivment', 'APPPATH\\Views\\achivmentview.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\achivmentview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('achivmentview', [], true)
+ 5 APPPATH\Controllers\Achivmentview.php(15): view('achivmentview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 12:44:53 --> Undefined array key "usernemail"
+in APPPATH\Views\achivmentview.php on line 13.
+ 1 APPPATH\Views\achivmentview.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usernemail"', 'APPPATH\\Views\\achivmentview.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\achivmentview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('achivmentview', [], true)
+ 5 APPPATH\Controllers\Achivmentview.php(15): view('achivmentview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 12:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 13:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:01:31 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->update('aproovment', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 13:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:02:36 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->update('aproovment', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:06:44 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->update('aproovment', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 13:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:06:49 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->update('aproovment', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 13:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:09:12 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->update('aproovment', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-25 13:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 13:10:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Achivmentview.php(22): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Achivmentview->aproove()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Achivmentview))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -38,6 +38,8 @@ $routes->get('getachivment','Addachivment::getachivment');
 $routes->get('adminlogin', 'Adminlogin::index');
 $routes->get('adminlogout','Adminlogin::adminlogout');
 $routes->get('adminpanel','Adminpanel::index');
+$routes->get('Pdf','Pdf::index');
+
 
 
 

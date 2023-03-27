@@ -44,7 +44,7 @@ if(isset($_SESSION['achivmentadded'])){
 </div>
 </div>
 
-<div class="container my-5 ">
+<div class="container mt-2">
     <p>
         <a class="btn btn-primary  d-flex justify-content-evenly" style="width:800px; margin-left:250px;" data-bs-toggle="collapse" href="#view" role="button" aria-expanded="false" aria-controls="collapseExample">
             view achivment

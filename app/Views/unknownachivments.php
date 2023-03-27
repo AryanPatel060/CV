@@ -1,7 +1,7 @@
 <div class="container ">
 <div class="row">
 <div class="col">
-<h1 class="container my-3">Pending Achivment</h1>
+<h1 class="container">Pending Achivment</h1>
 
 <!-- show achivments -->
 <?php $i=0; foreach($achivments as $achivment): ?>

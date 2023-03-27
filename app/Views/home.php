@@ -40,7 +40,11 @@
         <div><h4><?=$achivment['achivment_title']?></h4></div>
         <div class="data opacity-75"><?=$achivment['achivment_desc']?></div>
     </div>
-    <div class="col"><h6>Catagory:<?=$achivment['catagory']?></h6></div>
+    <div class="col">
+    <div class="row"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
+    <div class="row"><?php if($achivment['aproovment'] == 0){echo '<h6 class="text-danger">Approvel Pending</h6>';}else{echo'<h6 class="text-success">Approved</h6>';}?>
+    </div>
+    </div>
     </div>
 </div>
 </div>

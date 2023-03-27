@@ -11,11 +11,21 @@ class Home extends BaseController
 {
     public function index()
     {   
+        
+        
         $_SESSION['homepage'] = 'homepage';
-            $session = session();
-            $session->markAsFlashdata('homepage');
+        $session = session();
+        $session->markAsFlashdata('homepage');
+        
+        
         $record=new JoinModel();       
-        $r['achivments']=$record->getallachivment();
+            if($this->request->getGet('search')){
+                $q=$this->request->getGet('search');
+                $r['achivments']=$record->findlike('achivment_title',$q);
+            }
+            else{
+                $r['achivments']=$record->getallachivment();
+            }
         echo view('home',$r);
     }
 }

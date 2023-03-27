@@ -16,6 +16,14 @@ if(isset($_SESSION['achivmentadded'])){
     }
 }
 ?>
+<?php $all=0;$approved=0; foreach($achivments as $achivment){
+if($achivment['aproovment'] == 1){
+    $approved = $approved+1;
+} 
+    
+    $all=$all+1;
+} ?>
+
 <!-- profiole details -->
 <h3 class="container my-3 d-flex justify-content-center">
     welcome to your 
@@ -35,7 +43,10 @@ if(isset($_SESSION['achivmentadded'])){
         <b>name</b> :<?=session('user')->username;?><hr>
         <b>email</b> :<?=session('user')->useremail;?><hr>
         <b>contact no</b> :<?=session('user')->phonenumber;?><hr>
-        <b>Profession</b>:<?php if(session('user')->profession==0){echo'Student';}else if(session('user')->profession==1){echo'Faculty';}?>
+        <b>Profession</b>:<?php if(session('user')->profession==0){echo'Student';}else if(session('user')->profession==1){echo'Faculty';}?><hr>
+<div class="text-muted"><h6>Totle achivments : <?=$all?></h6>
+                         <h6>Approved : <?=$approved?></h6></div>
+
     </p>
 </div>
     </div>
@@ -59,64 +70,73 @@ echo view('addachivment');
 </div>
 </div>
 <?php endif;?>
+
+
+
+
+
 <div class="container ">
 <?php if(session('user')->profession==0){echo'<div class="row">
 <div class="col">';}?>
-<h1 class="container my-3"><?php if(session('user')->profession==0){echo'Your Achivment';}else if(session('user')->profession==1){echo'Pending Achivment';}?></h1>
+<h1><?php if(session('user')->profession==0){echo'Your Achivment';}else if(session('user')->profession==1){echo'Pending Achivment';}?></h1>
 
 <!-- show achivments -->
-<?php $i=0; foreach($achivments as $achivment): ?>
-      <?php if($achivment['aproovment']==0):?>
-            <div class="card w-75 my-2 d-flex justify-content-evenly">
+<?php $i=0; foreach($achivments as $achivment): 
+     if($achivment['aproovment']==0):?>
+            <div class="card w-75 my-2">
                 <div class="row">
                     <div class="col">
                         <div class="card-body">
                             <h5 class="card-title"><?=$achivment['achivment_title']?></h5>
                             <p class="card-text"><?=$achivment['achivment_desc']?></p>
                             <form method="post" action="<?=site_url('achivmentview')?>">
-                 <input type="hidden" id="achivmentid" name="achivmentid" value="<?=$achivment['achivment_id']?>">
-                 <button class="btn btn-primary" type="submit">View achivment</button>
-                </form>
+                            <input type="hidden" id="achivmentid" name="achivmentid" value="<?=$achivment['achivment_id']?>">
+                            <button class="btn btn-primary" type="submit">View achivment</button>
+                            </form>
+                            <div class="row">
+                            <div class="col"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
+                            <div class="col"><h6 class="text-danger">Approval Pending</h6></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <p class="my-2">
-                            Catagory:<?=$achivment['catagory']?>
-                        </p>
-                    </div>
                 </div>
             </div>
-<?php endif;?>
-<?php endforeach;?>
-
-</div>
-<?php if(session('user')->profession==0):?>
-    <div class="col">
-    <h1>Aprooved Achivment</h1>
-    <?php $i=0; foreach($achivments as $achivment): ?>
-<?php if($achivment['aproovment'] == 1):?> 
-    <div class="card w-75 my-2">
-        <div class="row">
-            <div class="col">
-                <div class="card-body">
-                    <h5 class="card-title"><?=$achivment['achivment_title']?></h5>
-                    <p class="card-text"><?=$achivment['achivment_desc']?></p>
-                    <form method="post" action="<?=site_url('achivmentview')?>">
-                 <input type="hidden" id="achivmentid" name="achivmentid" value="<?=$achivment['achivment_id']?>">
-                 <button class="btn btn-primary" type="submit">View achivment</button>
-                </form>
-                </div>
-            </div>
-            <div class="col">
-                <p class="my-2">
-                    Catagory:<?=$achivment['catagory']?>
-                </p>
-            </div>
-        </div>
-    </div>
-    <?php endif;?>
+        <?php $i=$i+1;endif;?>
     <?php endforeach;?>
+    <?php if($all==0){echo'<h6 class="text-muted opacity-50 mb-3">No Achivments Added Yet!</h6>';}else if($i==0){echo'<h6 class="text-muted opacity-50">All achivments are approved!</h6>';}?>
+    </div>
+    <?php if(session('user')->profession==0):?>
+        <div class="col"> 
+            <h1>Aprooved Achivment</h1>
+            <?php $i=0; foreach($achivments as $achivment): ?>
+                <?php if($achivment['aproovment'] == 1):?>   
+                    <div class="card w-75 my-2">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?=$achivment['achivment_title']?></h5>
+                                    <p class="card-text"><?=$achivment['achivment_desc']?></p>
+                                    <form method="post" action="<?=site_url('achivmentview')?>">
+                                    <input type="hidden" id="achivmentid" name="achivmentid" value="<?=$achivment['achivment_id']?>">
+                                    <button class="btn btn-primary" type="submit">View achivment</button>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
+                                        <div class="col"><h6 class="text-success">Approved</h6></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif;?>
+            <?php endforeach;?>
     <?php endif;?>   
+    <?php if($approved==0){echo'<h6 class="text-muted opacity-50">Approved Achivment comes here</h6>';}?>
 </div>
 </div>        
+</div>        
+        
+
+<!-- <button class="btn btn-primary" onclick="generatepdf()">Download</button> -->
+
 <?php echo view('partials/footer');?>

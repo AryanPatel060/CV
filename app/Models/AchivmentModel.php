@@ -13,7 +13,7 @@ class AchivmentModel extends Model
     protected $returnType ='array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['user_id', 'achivment_title','achivment_desc','catagory','aproovment','created_at','updated_at'];
+    protected $allowedFields = ['user_id', 'achivment_title','achivment_desc','catagory','aproovment','approvedby','created_at','updated_at'];
     protected $useTimestamp = true;
     protected $createdField = 'created_at';
     protected $updatedField = 'update_at';

@@ -33,7 +33,7 @@
     </div>
     
 </div>
-<div class="mx-2"><hr></div>
+<hr>
 <div class="row ">
     <div class="d-flex justify-content-between">
     <div class="container col m-3 mt-0">
@@ -44,6 +44,8 @@
     <div class="row"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
     <div class="row"><?php if($achivment['aproovment'] == 0){echo '<h6 class="text-danger">Approvel Pending</h6>';}else{echo'<h6 class="text-success">Approved</h6>';}?>
     </div>
+    <div class="row"><?php if($achivment['aproovment'] == 1){echo '<h6 class="text-danger">Approved By : '.$achivment['approvedby'].'</h6>';}?>
+            </div>
     </div>
     </div>
 </div>

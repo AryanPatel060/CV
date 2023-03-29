@@ -97,6 +97,8 @@ echo view('addachivment');
                             <div class="col"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
                             <div class="col"><h6 class="text-danger">Approval Pending</h6></div>
                             </div>
+                            <div class="row"><?php if($achivment['aproovment'] == 1){echo '<h6 class="text-danger">Approved By : '.$achivment['approvedby'].'</h6>';}?>
+            </div>
                         </div>
                     </div>
                 </div>
@@ -124,6 +126,8 @@ echo view('addachivment');
                                         <div class="col"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
                                         <div class="col"><h6 class="text-success">Approved</h6></div>
                                     </div>
+                                    <div class="row"><?php if($achivment['aproovment'] == 1){echo '<h6 class="text-danger">Approved By : '.$achivment['approvedby'].'</h6>';}?>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -134,8 +138,19 @@ echo view('addachivment');
     <?php if($approved==0){echo'<h6 class="text-muted opacity-50">Approved Achivment comes here</h6>';}?>
 </div>
 </div>        
-</div>        
-        
+</div> 
+
+<?php if(session('user')->profession == 0):?>
+<div class="container ">
+<h5 class="my-3"><spam>Download Your Achivments For Resume</spam> </h5>    
+
+<form method="post" action="<?=site_url('makepdf')?>">
+<input type="hidden" id="makepdf" name="makepdf" value="<?=session('user')->id;?>">
+<button class="btn btn-primary" type="submit">Download</button>
+</form>
+</div>
+
+<?php endif;?>
 
 <!-- <button class="btn btn-primary" onclick="generatepdf()">Download</button> -->
 

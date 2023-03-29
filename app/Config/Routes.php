@@ -41,8 +41,8 @@ $routes->get('adminpanel','Adminpanel::index');
 $routes->get('Pdf','Pdf::index');
 
 
-
-
+$routes->get('makepdf', 'PdfController::index');
+$routes->match(['get', 'post'], 'makepdf', 'PdfController::htmlToPDF');
 
 
 $routes->post('signup', 'Signup::signup');

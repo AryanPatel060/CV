@@ -26,7 +26,10 @@ class Achivmentview extends BaseController
        $b= new JoinModel();
     
        $id=$this->request->getpost('achivmentid');
+       $approvedbyid=session('user')->username;
        $r= $a->set('aproovment',1)->where('achivment_id',$id)->update();
+       $r= $a->set('approvedby',$approvedbyid)->where('achivment_id',$id)->update();
+
 
        $result['achivments']=$b->achivmentbyid($id);
     //    $this->session->set("aprooved",$result);

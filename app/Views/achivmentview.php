@@ -38,7 +38,7 @@ if(isset($_SESSION['approved'])){
             <p><?=$achivment['achivment_title']?></p>
             <h5>Discription</h5>
             <p><?=$achivment['achivment_desc']?> </p>
-            <?php if(session('user')->profession==1):?>
+            <?php if(session('user')->profession==1 && $achivment['aproovment'] == 0):?>
             <form method="post" action="<?=site_url('aproove')?>">
                 <input type="hidden" id="achivmentid" name="achivmentid" value="<?=$achivment['achivment_id'];?>">
                 <button class="btn btn-primary"  type="submit">Aproove Achivment</button>
@@ -48,6 +48,8 @@ if(isset($_SESSION['approved'])){
             <div class="col"><h6 >Catagory : <?=$achivment['catagory']?></h6></div>
             <div class="col"><?php if($achivment['aproovment'] == 0){echo '<h6 class="text-danger">Approvel Pending</h6>';}else{echo'<h6 class="text-success">Approved</h6>';}?>
             </div>
+            </div>
+            <div class="row"><?php if($achivment['aproovment'] == 1){echo '<h6 class="text-danger">Approved By : '.$achivment['approvedby'].'</h6>';}?>
             </div>
             <div class="row"><?php if($achivment['aproovment'] == 0 && session('user')->profession==0){echo '<h6 class="text-muted opacity-50">(only Faculty can Approve this):</h6>';}?></div>
         </div>

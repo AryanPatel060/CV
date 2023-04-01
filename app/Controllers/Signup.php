@@ -24,15 +24,11 @@ class Signup extends BaseController
         $cpassword=$this->request->getPost('cpassword');
 
         
-        
+        $usrname=$usermodel->where('username',$username)->findAll();
+        $email=$usermodel->where('useremail',$useremail)->findAll();
 
-        // $profession=$this->request->getPost('profession');
-        // if ($profession == 'faculty'){
-        //     $profession = 2;
-        // } 
-        // else $profession =1;
-
-        if($password == $cpassword)
+        if($usrname==NULL){
+        if($password == $cpassword )
         {
        $password= password_hash($password,PASSWORD_DEFAULT);
             $data=[
@@ -49,7 +45,19 @@ class Signup extends BaseController
             $session->markAsFlashdata('passcpass');
            return redirect()->to('/signup');
         }
-        
+    }
+    else if($email!=NULL){
+        $_SESSION['emailalready'] = 'Sorry, useremail already exists';
+        $session = session();
+        $session->markAsFlashdata('emailalready');
+       return redirect()->to('/signup');
+    }
+    else{
+        $_SESSION['usernamealready'] = 'Sorry, username already exists';
+        $session = session();
+        $session->markAsFlashdata('usernamealready');
+       return redirect()->to('/signup');
+    }
         $r = $usermodel->insert($data);
         if($r)
         {

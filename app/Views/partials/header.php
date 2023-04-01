@@ -12,37 +12,20 @@
   
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">CV    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+    <a class="navbar-brand mx-3" href="#"><img  style="border-radius:50%"  src="<?=base_url("uploads/cv.jpeg")?>"  width="45px" hight="45px" alt="...">  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-trget="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link <?php if (isset($_SESSION['homepage'])){echo'active';}?> mx-3" aria-current="page" href="<?= site_url();?>">Home</a>
+          <a class="nav-link <?php if (isset($_SESSION['homepage'])){echo'active';}?> mx-3" aria-current="page" style="font-size:20px;" href="<?= site_url();?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if (isset($_SESSION['profilepage'])){echo'active';}?> mx-3" aria-current="page" href="<?= site_url('profile');?>">Profile</a>
+          <a class="nav-link <?php if (isset($_SESSION['profilepage'])){echo'active';}?> mx-3" aria-current="page" style="font-size:20px;" href="<?= site_url('profile');?>">Profile</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            catagory
-          </a>
-        
-          <ul class="dropdown-menu">
-            <div class="input-group m-2">
-              <form method="post" action="<?= base_url("catagory");?>">
-                <select class="form-select" id="catagory" name="catagory">
-                  <option value="0">All</option>
-                  <option value="sports">Sports</option>
-                  <option value="education">Education</option>
-                  <option value="cericular">Cericular</option>
-                </select>
-        <button class="btn btn-primary mt-3" type="submit">Search</button>
-              </form>
-            </div>
-        </ul>
-        </li>
+       
       </ul>
       
       <form class="d-flex mt-3" role="search">

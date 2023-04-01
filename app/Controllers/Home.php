@@ -4,6 +4,8 @@ namespace App\Controllers;
 use \App\Models\AchivmentModel;
 use \App\Models\UserModel;
 use \App\Models\JoinModel;
+use \App\Models\CategoryModel;
+
 
 
 
@@ -17,7 +19,7 @@ class Home extends BaseController
         $session = session();
         $session->markAsFlashdata('homepage');
         
-        
+         
         $record=new JoinModel();       
             if($this->request->getGet('search')){
                 $q=$this->request->getGet('search');
@@ -26,6 +28,11 @@ class Home extends BaseController
             else{
                 $r['achivments']=$record->getallachivment();
             }
+
+            $model = new CategoryModel();
+        $result['categorys']=$model->selectall();
+                    
+            echo view('partials/header2',$result);
         echo view('home',$r);
     }
 }

@@ -39,6 +39,13 @@ $routes->get('adminlogin', 'Adminlogin::index');
 $routes->get('adminlogout','Adminlogin::adminlogout');
 $routes->get('adminpanel','Adminpanel::index');
 $routes->get('Pdf','Pdf::index');
+$routes->get('profile','Profile::index');
+$routes->get('addachivment','Addachivment::index');
+$routes->get('header','Header::index');
+
+
+
+
 
 
 $routes->get('makepdf', 'PdfController::index');
@@ -47,19 +54,17 @@ $routes->match(['get', 'post'], 'makepdf', 'PdfController::htmlToPDF');
 
 $routes->post('signup', 'Signup::signup');
 $routes->post('login', 'Login::login');
-$routes->post('addachivment', 'Addachivment::index');
+$routes->post('addachivment', 'Addachivment::addachivment');
 $routes->post('catagory', 'Catagory::index');
 $routes->post('achivmentview', 'Achivmentview::index');
 $routes->post('adminlogin', 'Adminlogin::adminlogin');
 $routes->post('addfaculty', 'Addfaculty::index');
 $routes->post('aproove', 'Achivmentview::aproove');
-
-
-
-
-
-
-
+$routes->post('undoaproove', 'Achivmentview::undoaproove');
+$routes->post('addcat', 'Catagory::addcat');
+$routes->post('editcat', 'Catagory::editcat');
+$routes->post('deletecat', 'Catagory::deletecat');
+$routes->post('deleteachivment', 'Addachivment::deleteachivment');
 
 
 

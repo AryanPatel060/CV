@@ -6,7 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
-      
+    <style>
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* width: 100%; */
+      /* height: auto; */
+
+    }
+    .logo {
+        padding: 100px 0px 0px 0px;
+        width: 30vw;
+    }
+    .achievement{
+        justify: center;
+    }
+
+    /* Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    /* Global */
+     html {
+      /* min-height: 100%; */
+      /* overflow: hidden; */
+    }
+
+    body {
+      /* height: calc(100vh - 8em); */
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+
+   .line-1 {
+      position: relative;
+      top: 8vh;
+      width: 51vw; 
+      margin: 30px auto auto auto;
+      border-right: 2px solid rgba(255, 255, 255, .75);
+      font-size: 180%;
+      text-align: center;
+      /* white-space: nowrap; */
+      /* overflow-x: hidden; */
+      transform: translateY(-50%);
+    }
+
+    @media screen and (min-width: 1535px) {
+      html {
+      /* min-height: 100%; */
+      /* overflow: hidden; */
+    }
+
+    body {
+      /* height: calc(100vh - 8em); */
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+
+    .line-1 {
+      position: relative;
+      top: 8vh;
+      overflow-wrap: break-word;
+      inline-size: 51vw;
+      /* width: 51vw; */
+      margin: 0 auto auto auto;
+      border-right: 2px solid rgba(255, 255, 255, .75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow-x: hidden;
+      transform: translateY(-50%);
+    }
+
+    /* Animation */
+    .anim-typewriter {
+      animation: typewriter-forward 7s steps(51) 0.5s infinite normal both,
+        blinkTextCursor 500ms steps(51) infinite normal;
+    }
+
+    @keyframes typewriter-forward {
+      0% {
+        width: 0;
+      }
+
+      50% {
+        width: 51vw;
+      }
+      100% {
+        width: 0;
+      }
+}
+
+    @keyframes blinkTextCursor {
+      from {
+        border-right-color: black;
+      }
+
+      to {
+        border-right-color: transparent;
+      }
+    }
+    }
+  </style>
   </head>
  <body>
   

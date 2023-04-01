@@ -1,5 +1,11 @@
 
-
+<div class="containor cvbg">
+      <div class="image"><img src="<?=base_url('uploads/bg.png');?>" class="logo" alt="CV"></div>
+    </div>
+    <div class="typewriter">
+      <p class="line-1 anim-typewriter">Upload your achievement and make your resume better.</p>
+    </div>
+    <!-- <div class="achievement"><h1>Achivement</h1></div> -->
 <?php    $i=0;
  foreach($achivments as $achivment):
  $i++;?>

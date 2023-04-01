@@ -8,6 +8,7 @@ class Login extends BaseController
 {
     public function index()
     {
+        
         if(isset($_SESSION['user'])){
             return redirect()->to('profile');
         }
@@ -21,16 +22,16 @@ class Login extends BaseController
     public function login()
     {
      $userModel = new userModel();
-     $email = $this->request->getPost('email');
-     $password = $this->request->getPost('password');
-     
+     $email = $this->request->getPost('loginemail');
+     $password = $this->request->getPost('loginpassword');
+    
 
      $result = $userModel->where('useremail',$email)->first();
     //  echo $password;
     //  echo $email;
     //   print_r($result);
    
-     if( $result->id > 0)
+     if( $result)
      {
         if (password_verify( $password, $result->password))
         {
@@ -45,6 +46,12 @@ class Login extends BaseController
            return redirect()->to('login');
 
         }
+     }
+     else{
+        $_SESSION['emailnotexist'] = 'Sorry, Email does  not exists';
+        $session = session();
+        $session->markAsFlashdata('emailnotexist');
+        return redirect()->to('login');
      }
 
     }

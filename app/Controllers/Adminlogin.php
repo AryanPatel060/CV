@@ -3,8 +3,6 @@
 namespace App\Controllers;
 use \App\Models\AdminModel;
 
-
-
 class Adminlogin extends BaseController
 {
     public function index()

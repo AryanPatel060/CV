@@ -1,10 +1,8 @@
 <?php
 
 namespace App\Controllers;
-use \App\Models\AchivmentModel;
-use \App\Models\UserModel;
-use \App\Models\JoinModel;
 
+use \App\Models\CategoryModel;
 
 
 class Adminpanel extends BaseController
@@ -12,8 +10,11 @@ class Adminpanel extends BaseController
     public function index()
     {   
         if(isset($_SESSION['admin'])){
+            $model = new CategoryModel();
+             $result['categorys']=$model->selectall();
+                         
             echo view('partials/header');
-            echo view('adminpanel');
+            echo view('adminpanel',$result);
             echo view('partials/footer');
         }
         else{

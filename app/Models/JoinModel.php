@@ -18,6 +18,12 @@ class JoinModel extends Model
     $query= $this->db->query("select * from users join achivment on users.id=achivment.user_id where catagory='$cat';");
      return $query->getResultArray();
    }
+
+   public function getcatidachivment($cat,$id){
+    
+    $query= $this->db->query("select * from users join achivment on users.id=achivment.user_id where catagory='$cat' and id='$id';");
+     return $query->getResultArray();
+   }
   public function achivmentbyid($id)
   {
     $query= $this->db->query("select * from users join achivment on users.id=achivment.user_id where achivment_id='$id';");
